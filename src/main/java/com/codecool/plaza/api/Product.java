@@ -5,11 +5,8 @@ public abstract class Product {
     protected String name;
     protected String manufacturer;
 
-    protected Product(long barcode, String name1, String s, String name, String manufacturer){
+    protected Product(long barcode, String name, String manufacturer){
 
-    }
-
-    protected Product() {
     }
 
     public long getBarcode() {
