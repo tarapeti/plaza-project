@@ -7,7 +7,7 @@ public interface Plaza {
     public void addShop(Shop shop) throws ShopAlreadyExistsException, PlazaIsClosedException;
     public void removeShop(Shop shop) throws NoSuchShopException, PlazaIsClosedException;
     public Shop findShopByName(String name) throws NoSuchShopException, PlazaIsClosedException;
-    public boolean isOpen();
+    public boolean isIsopen();
     public void open();
     public void close();
     public String toString();
