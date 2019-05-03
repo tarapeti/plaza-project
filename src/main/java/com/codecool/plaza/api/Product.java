@@ -1,6 +1,6 @@
 package com.codecool.plaza.api;
 
-abstract class Product {
+public abstract class Product {
     protected long barcode;
     protected String name;
     protected String manufacturer;
